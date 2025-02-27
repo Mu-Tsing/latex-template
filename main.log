@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.14)  27 FEB 2025 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.14)  27 FEB 2025 11:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -237,7 +237,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/Users/mulikas/GitHub/tex-template-note/configs/body.tex (/Users/mulikas/GitHub/tex-template-note/sections/sec1.tex) (/Users/mulikas/GitHub/tex-template-note/configs/refer.tex)) [1
+) (/Users/mulikas/GitHub/tex-template-note/sections/body.tex (/Users/mulikas/GitHub/tex-template-note/sections/sec1.tex) (/Users/mulikas/GitHub/tex-template-note/configs/refer.tex)) [1
 
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/mulikas/GitHub/tex-template-note/main.aux)
@@ -248,7 +248,7 @@ L3 programming layer <2024-02-20>
  ) 
 Here is how much of TeX's memory you used:
  3631 strings out of 474116
- 51926 string characters out of 5743682
+ 51931 string characters out of 5743682
  1927187 words of memory out of 5000000
  25965 multiletter control sequences out of 15000+600000
  563946 words of font info for 59 fonts, out of 8000000 for 9000
