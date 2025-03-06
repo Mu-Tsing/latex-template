@@ -3,6 +3,12 @@
 \usepackage{amssymb}
 \usepackage{amsfonts}
 
+\usepackage[
+  style = authoryear,
+  backend = biber]{biblatex}
+\addbibresource{refer.bib}
+
+
 % table
 \usepackage{booktabs}
 
@@ -20,10 +26,10 @@
 % ### Coloring
 \newcommand{\greencolored}[1]{\textcolor{mygreencolor}{#1}}
 
-\newcommand{\bluecolored}[1]{\textcolor{ProcessBlue}{#1}}
+\newcommand{\bluecolored}[1]{\textcolor{RoyalBlue}{#1}}
 
 % ## Refers, Citation
-\usepackage{cite}
+% \usepackage{cite}
 \usepackage{hyperref}
 \hypersetup{
   %Colours links instead of ugly boxes
@@ -38,6 +44,20 @@
 
 % ### Refer with text.
 \newcommand{\namerefbf}[1]{\textbf{\nameref{#1}}}
+
+
+
+% BNF
+\usepackage{simplebnf}
+
+
+
+
+
+
+
+
+
 
 
 % # Math Envs
