@@ -19,14 +19,24 @@
 % # Colors - Refers Envs
 
 % ## Colors
-\usepackage[dvipsnames]{xcolor}
+\usepackage[
+  dvipsnames,
+  svgnames]{xcolor}
+
 % ### Colors Alias
-\definecolor{mygreen}{RGB}{64, 144, 144}
-\colorlet{myblue}{ProcessBlue}
+% \definecolor{mygreen}{RGB}{64, 144, 144}
+% #### Green colors
+\colorlet{mygreen}{Teal}
+
+% #### Blue colors
+% \colorlet{myblue}{ProcessBlue}
+% \colorlet{myblue}{RoyalBlue}
+\colorlet{myblue}{SteelBlue}
+
 % ### Coloring
 \newcommand{\greencolored}[1]{\textcolor{mygreencolor}{#1}}
 
-\newcommand{\bluecolored}[1]{\textcolor{RoyalBlue}{#1}}
+\newcommand{\bluecolored}[1]{\textcolor{myblue}{#1}}
 
 % ## Refers, Citation
 % \usepackage{cite}
@@ -37,7 +47,7 @@
   %Colour for external hyperlinks
   urlcolor     = red, 
   %Colour of internal links
-  linkcolor    = mygreen, 
+  linkcolor    = teal, 
   %Colour of citations, could be ``red''
   citecolor   = myblue,
 }
